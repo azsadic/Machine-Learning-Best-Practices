@@ -1,9 +1,9 @@
 # Machine Learning Best Practices
 
-* Pipeline Rehberi
-* Metrikler
-* Model Selection
-* Preprocessing
+[x] Pipeline Rehberi
+[] Metrikler
+[] Model Selection
+[] Preprocessing
 
 -----
 
