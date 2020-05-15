@@ -1,9 +1,18 @@
 # Machine Learning Best Practices
+Herkese Merhaba,
+Bu Repo tamamen ML gönüllüleri tarafından oluşturulmuş nokta atışı rehberlerden oluşmaktadır. Basit açıklayıcı ve ihtiyaç dahilinde her konuya ulaşabileceğiniz bir repo oluşturmayı amaçlıyoruz. Contributor olmak için basit ve anlaşılır bir rehber yazarak mertcobanov@gmail.com mail adresimden bana ulaşabilirsiniz.
+
+## Contributors
+
+
+
+### Konular
 
 - [x] Pipeline Rehberi
 - [ ] Metrikler
 - [ ] Model Selection
 - [ ] Preprocessing
+- [ ] Konular eklenmeye devam edecek...
 
 -----
 
