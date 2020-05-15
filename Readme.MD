@@ -27,7 +27,8 @@ pipe = Pipeline([('s_scaler', StandardScaler()), ('clf', DecisionTreeClassifier(
 pipe2 = make_pipeline(StandardScaler(), DecisionTreeClassifier())                        # 2. Seçenecek
 ```
 
-### Basit layout
+### Örnek Çalışma
+Burada örnek çalışmayı inceleyerek sistemin nasıl ilerlediğine bakabilirsiniz.
 
 
 ```python
@@ -77,10 +78,7 @@ from sklearn.model_selection import GridSearchCV
 
 param_grid = dict(decisiontreeclassifier__min_samples_split=[2, 5, 10])
 grid_search = GridSearchCV(pipe_example, param_grid=param_grid)
-```
 
-
-```python
 grid_search.fit(X_train, y_train)
 ```
 
@@ -120,22 +118,14 @@ grid_search.fit(X_train, y_train)
 
 ```python
 grid_search.best_params_
+{'decisiontreeclassifier__min_samples_split': 5}
 ```
-
-
-
-
-    {'decisiontreeclassifier__min_samples_split': 5}
-
-
-
 
 ```python
 preds_cv = grid_search.predict(X_test)
 print(f" \nAccuracy : {accuracy_score(preds_cv, y_test)}")
 
+Accuracy : 0.9736842105263158
 ```
-
-     
-    Accuracy : 0.9736842105263158
+    
     
